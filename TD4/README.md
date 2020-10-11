@@ -9,7 +9,7 @@ Le dataset que nous avons choisi contient les dialogues des 27 saisons de la sé
 <li>"<i>spoken_words</i>" , le texte énoncé par le personnage</li>
 
 Ci-dessous un échantillon du dataset brut.
-![data_head.png](attachment:data_head.png)
+![data_head.png](attachment:https://github.com/AkSino/NLP/blob/master/TD4/NB_Resume.PNG)
 
 Avec ces données, nous nous sommes donnés le challenge de prédire quel personnage a parlé selon une certaine ligne de dialogue.
 
