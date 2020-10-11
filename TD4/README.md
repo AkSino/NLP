@@ -19,7 +19,7 @@ Avec ces données, nous nous sommes donnés le challenge de prédire quel person
 
 Afin de mener à bien notre projet, nous avons choisi de nous focaliser sur les personnages ayant un minimum d’activité dans la série. Nous avons donc choisi de sélectionner les personnages ayant plus de **1000** lignes de dialogues, ce qui laisse **14** personnages différents dans le dataset.
 Voici ci-dessous un diagramme en barre indiquant les personnages restant dans le dataset et le nombre de phrases qu'ils ont dit.
-![charact_diagram.png](attachment:charact_diagram.png)
+![charact_diagram.png](https://github.com/AkSino/NLP/blob/master/TD4/charact_diagram.png)
 
 ### Word processing
 
@@ -43,7 +43,7 @@ De même, la cross-validation pour le modèle random forest n'est composée que 
 
 ## Naive Bayes
 
-![NB_Resume.PNG](attachment:NB_Resume.PNG)
+![NB_Resume.PNG](https://github.com/AkSino/NLP/blob/master/TD4/NB_Resume.PNG)
 
 Le modèle Naive Bayes pour ce dataset est mauvais, la précision du modèle est de **36,5%** avec les stop words et de **37%** sans. Cette faible précision est dûe au fait qu'il est compliqué d'attribuer un mot à une personne et que la repartition des données est inégale, par exemple à Homer sont attribués 57 000 mots sur les 61 000, le deuxième en a seulement 1800. Cette répartition induit donc un mauvais modèle pour prédire qui dit quoi.
 Homer possède une place beaucoup trop importante dans le dataset, en moyenne presque tous les mots du dataset ont été dits plus de fois par Homer que par les autres personnes ce qui fausse les prédictions.
@@ -51,10 +51,10 @@ Homer possède une place beaucoup trop importante dans le dataset, en moyenne pr
 ## Random Forest
 
 *Après le word processing retirant les stop words*
-![RF_Resume.PNG](attachment:RF_Resume.PNG)
+![RF_Resume.PNG](https://github.com/AkSino/NLP/blob/master/TD4/RF_Resume.PNG)
 
 *Après le word processing ignorant les stop words*
-![RF_Resume_1.PNG](attachment:RF_Resume_1.PNG)
+![RF_Resume_1.PNG](https://github.com/AkSino/NLP/blob/master/TD4/RF_Resume_1.PNG)
 
 Le modèle issu de la random forest présente une présicion simillaire à celui avec Naive Bayes (environ **37%** en supprimant les stop words et environ **35,6%** en les ignorant). Cependant ce modèle est plus général que celui prédit par Naive Bayes : il permet de déterminer avec plus de précision qui a dit une certaine phrase dans le cas général.
 
