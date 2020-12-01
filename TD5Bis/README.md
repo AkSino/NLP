@@ -2,7 +2,7 @@
 
 We have 55 questions/answers on NLP. They come from these 2 sites:
 
--https://www.onlineinterviewquestions.com/nlp-interview-questions/
+-https://www.onlineinterviewquestions.com/nlp-interview-questions/\n
 -https://www.i2tutorials.com/nlp-interview-question-answers/nlp-interview-questions-part-1/
 
 # Data Preparation
@@ -49,13 +49,13 @@ WordPiece tokenization: Apply whitespace tokenization to the output of the above
 
 You have to just ask your question and it is going to look for the best answer in dataset. If it doesnt find a correct answer, it responds: "Sorry i dont understand the question"
 If you dont have an idea of question, algorithm propose to you prebuild questions.
-You can enter "q" or "question" to ask standard question and you can enter e or exit to end the discussion
+You can enter "q" or "question" to ask standard question and you can enter "e" or "exit" to end the discussion
 
 # Second mode: Question/Answering system with DIALOGFLOW:
 
 We put the web scrapping data in a csv file (question / answer) then in dialogflow we create a knowledge base with that. It will then look among the questions for the one that most closely resembles yours and then send you the answer.
 
-## Running
+## Running:
 
 Really easy to use: Open index.html in your browzer and then ask you question.
 
