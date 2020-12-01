@@ -49,6 +49,7 @@ WordPiece tokenization: Apply whitespace tokenization to the output of the above
 
 You have to just ask your question and it is going to look for the best answer in dataset. If it doesnt find a correct answer, it responds: "Sorry i dont understand the question"
 If you dont have an idea of question, algorithm propose to you prebuild questions.
+You can enter "q" or "question" to ask standard question and you can enter e or exit to end the discussion
 
 # Second mode: Question/Answering system with DIALOGFLOW:
 
