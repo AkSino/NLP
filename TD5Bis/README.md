@@ -3,6 +3,8 @@
 We have 55 questions/answers on NLP. They come from these 2 sites:
 
 -https://www.onlineinterviewquestions.com/nlp-interview-questions/
+
+ 
 -https://www.i2tutorials.com/nlp-interview-question-answers/nlp-interview-questions-part-1/
 
 # Data Preparation
