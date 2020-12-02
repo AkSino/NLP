@@ -50,7 +50,7 @@ WordPiece tokenization: Apply whitespace tokenization to the output of the above
 ## Running:
 
 You have to just ask your question and it is going to look for the best answer in dataset. If it doesnt find a correct answer, it responds: "Sorry i dont understand the question"
-If you dont have an idea of question, you can typa "q" or "question" to ask a standard question and you can type "e" or "exit" to end the discussion.
+If you dont have an idea of question, you can type "q" or "question" to ask a standard question. You can type "e" or "exit" to end the discussion.
 
 # Second mode: Question/Answering system with DIALOGFLOW:
 
